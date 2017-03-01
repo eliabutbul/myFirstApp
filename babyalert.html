@@ -1,0 +1,43 @@
+<!doctype html>
+<!------------------->
+<!-- אפליקציית ניהול רכב -->
+<!------------------->
+
+<!-- התראה על דלק שאוזל -->
+<!-- התראה על אורות דלוקים כשהמנוע כבוי -->
+<!-- התראה על ילד במושב האחורי כשהרכב כבוי -->
+<!-- התראה על תקלה במנוע -->
+<!-- התראה על חוסר אויר בגלגלים -->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css" />
+</head>
+
+<body>
+    <div id="wrp">
+        <div id="screen1" onload="se">
+            <i id="child" class="fa fa-child" aria-hidden="true"></i>
+            <h1>Baby Alert !!!</h1>
+            <h3>You forgot the baby in the car</h3>
+            <div id="lamp"></div>
+            <div id="screen2">
+                <i id="child" class="fa fa-child" aria-hidden="true"></i>
+                <h1>Your baby still in the car !!!</h1>
+                <div id="lamp">10</div>
+            </div>
+            <div id="screen3">
+                <i id="child" class="fa fa-child" aria-hidden="true"></i>
+                <h1>Baby Alert !!!</h1>
+                <div id="lamp"></div>
+            </div>
+</body>
+
+</html>
